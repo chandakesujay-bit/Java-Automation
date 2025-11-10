@@ -25,6 +25,31 @@
       <version>5.0.0</version>
       <scope>provided</scope>
     </dependency>
+    
+    <!-- Existing dependencies if any -->
+
+    <!-- JAX-RS API (for @Path, @GET, @Produces, etc.) -->
+    <dependency>
+        <groupId>jakarta.ws.rs</groupId>
+        <artifactId>jakarta.ws.rs-api</artifactId>
+        <version>3.1.0</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <!-- Jersey (Reference Implementation of JAX-RS) -->
+    <dependency>
+        <groupId>org.glassfish.jersey.containers</groupId>
+        <artifactId>jersey-container-servlet</artifactId>
+        <version>3.1.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.glassfish.jersey.inject</groupId>
+        <artifactId>jersey-hk2</artifactId>
+        <version>3.1.1</version>
+    </dependency>
+
+
   </dependencies>
 
   <build>
